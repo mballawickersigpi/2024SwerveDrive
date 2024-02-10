@@ -1,0 +1,2 @@
+*.lvproj merge=ours
+*.lvlib merge=ours
