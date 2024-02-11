@@ -1,0 +1,5 @@
+Wrist full forward enc position: 64,675u
+
+Extender forward soft limit enc position: -667,744u
+
+Shoulder forward soft limit enc position: 360,000u

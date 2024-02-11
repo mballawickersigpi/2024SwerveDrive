@@ -1,0 +1,626 @@
+{
+  "pluginName": "SparkMax",
+  "name": "rev_tshirt_shooter",
+  "parameters": [
+    {
+      "id": "kCanID",
+      "value": 6
+    },
+    {
+      "id": "kInputMode",
+      "value": 1
+    },
+    {
+      "id": "kMotorType",
+      "value": 1
+    },
+    {
+      "id": "kCommAdvance",
+      "value": 0
+    },
+    {
+      "id": "kSensorType",
+      "value": 1
+    },
+    {
+      "id": "kCtrlType",
+      "value": 1
+    },
+    {
+      "id": "kIdleMode",
+      "value": 0
+    },
+    {
+      "id": "kInputDeadband",
+      "value": 0.05000000074505806
+    },
+    {
+      "id": "kFeedbackSensorPID0",
+      "value": 0
+    },
+    {
+      "id": "kFeedbackSensorPID1",
+      "value": 4294967295
+    },
+    {
+      "id": "kPolePairs",
+      "value": 7
+    },
+    {
+      "id": "kCurrentChop",
+      "value": 115
+    },
+    {
+      "id": "kCurrentChopCycles",
+      "value": 0
+    },
+    {
+      "id": "kP_0",
+      "value": 0.0002500000118743628
+    },
+    {
+      "id": "kI_0",
+      "value": 9.999999974752427e-7
+    },
+    {
+      "id": "kD_0",
+      "value": 0
+    },
+    {
+      "id": "kF_0",
+      "value": 0.00018400000408291817
+    },
+    {
+      "id": "kIZone_0",
+      "value": 200
+    },
+    {
+      "id": "kDFilter_0",
+      "value": 0
+    },
+    {
+      "id": "kOutputMin_0",
+      "value": 0
+    },
+    {
+      "id": "kOutputMax_0",
+      "value": 1
+    },
+    {
+      "id": "kP_1",
+      "value": 0
+    },
+    {
+      "id": "kI_1",
+      "value": 0
+    },
+    {
+      "id": "kD_1",
+      "value": 0
+    },
+    {
+      "id": "kF_1",
+      "value": 0
+    },
+    {
+      "id": "kIZone_1",
+      "value": 0
+    },
+    {
+      "id": "kDFilter_1",
+      "value": 0
+    },
+    {
+      "id": "kOutputMin_1",
+      "value": -1
+    },
+    {
+      "id": "kOutputMax_1",
+      "value": 1
+    },
+    {
+      "id": "kP_2",
+      "value": 0
+    },
+    {
+      "id": "kI_2",
+      "value": 0
+    },
+    {
+      "id": "kD_2",
+      "value": 0
+    },
+    {
+      "id": "kF_2",
+      "value": 0
+    },
+    {
+      "id": "kIZone_2",
+      "value": 0
+    },
+    {
+      "id": "kDFilter_2",
+      "value": 0
+    },
+    {
+      "id": "kOutputMin_2",
+      "value": -1
+    },
+    {
+      "id": "kOutputMax_2",
+      "value": 1
+    },
+    {
+      "id": "kP_3",
+      "value": 0
+    },
+    {
+      "id": "kI_3",
+      "value": 0
+    },
+    {
+      "id": "kD_3",
+      "value": 0
+    },
+    {
+      "id": "kF_3",
+      "value": 0
+    },
+    {
+      "id": "kIZone_3",
+      "value": 0
+    },
+    {
+      "id": "kDFilter_3",
+      "value": 0
+    },
+    {
+      "id": "kOutputMin_3",
+      "value": -1
+    },
+    {
+      "id": "kOutputMax_3",
+      "value": 1
+    },
+    {
+      "id": "kInverted",
+      "value": 1
+    },
+    {
+      "id": "kOutputRatio",
+      "value": null
+    },
+    {
+      "id": "kSerialNumberLow",
+      "value": 4294967295
+    },
+    {
+      "id": "kSerialNumberMid",
+      "value": 4294967295
+    },
+    {
+      "id": "kSerialNumberHigh",
+      "value": 4294967295
+    },
+    {
+      "id": "kLimitSwitchFwdPolarity",
+      "value": 0
+    },
+    {
+      "id": "kLimitSwitchRevPolarity",
+      "value": 0
+    },
+    {
+      "id": "kHardLimitFwdEn",
+      "value": 0
+    },
+    {
+      "id": "kHardLimitRevEn",
+      "value": 0
+    },
+    {
+      "id": "kSoftLimitFwdEn",
+      "value": 0
+    },
+    {
+      "id": "kSoftLimitRevEn",
+      "value": 0
+    },
+    {
+      "id": "kRampRate",
+      "value": 1
+    },
+    {
+      "id": "kFollowerID",
+      "value": 0
+    },
+    {
+      "id": "kFollowerConfig",
+      "value": 0
+    },
+    {
+      "id": "kSmartCurrentStallLimit",
+      "value": 80
+    },
+    {
+      "id": "kSmartCurrentFreeLimit",
+      "value": 20
+    },
+    {
+      "id": "kSmartCurrentConfig",
+      "value": 10000
+    },
+    {
+      "id": "kSmartCurrentReserved",
+      "value": 4294967295
+    },
+    {
+      "id": "kMotorKv",
+      "value": 480
+    },
+    {
+      "id": "kMotorR",
+      "value": 4294967295
+    },
+    {
+      "id": "kMotorL",
+      "value": 4294967295
+    },
+    {
+      "id": "kMotorRsvd1",
+      "value": 4294967295
+    },
+    {
+      "id": "kMotorRsvd2",
+      "value": 4294967295
+    },
+    {
+      "id": "kMotorRsvd3",
+      "value": 4294967295
+    },
+    {
+      "id": "kEncoderCountsPerRev",
+      "value": 4096
+    },
+    {
+      "id": "kEncoderAverageDepth",
+      "value": 64
+    },
+    {
+      "id": "kEncoderSampleDelta",
+      "value": 200
+    },
+    {
+      "id": "kEncoderInverted",
+      "value": 0
+    },
+    {
+      "id": "kEncoderRsvd1",
+      "value": 4294967295
+    },
+    {
+      "id": "kClosedLoopVoltageMode",
+      "value": 0
+    },
+    {
+      "id": "kCompensatedNominalVoltage",
+      "value": 0
+    },
+    {
+      "id": "kSmartMotionMaxVelocity_0",
+      "value": 0
+    },
+    {
+      "id": "kSmartMotionMaxAccel_0",
+      "value": 0
+    },
+    {
+      "id": "kSmartMotionMinVelOutput_0",
+      "value": 0
+    },
+    {
+      "id": "kSmartMotionAllowedClosedLoopError_0",
+      "value": 0
+    },
+    {
+      "id": "kSmartMotionAccelStrategy_0",
+      "value": 0
+    },
+    {
+      "id": "kSmartMotionMaxVelocity_1",
+      "value": 0
+    },
+    {
+      "id": "kSmartMotionMaxAccel_1",
+      "value": 0
+    },
+    {
+      "id": "kSmartMotionMinVelOutput_1",
+      "value": 0
+    },
+    {
+      "id": "kSmartMotionAllowedClosedLoopError_1",
+      "value": 0
+    },
+    {
+      "id": "kSmartMotionAccelStrategy_1",
+      "value": 0
+    },
+    {
+      "id": "kSmartMotionMaxVelocity_2",
+      "value": 5000
+    },
+    {
+      "id": "kSmartMotionMaxAccel_2",
+      "value": 5000
+    },
+    {
+      "id": "kSmartMotionMinVelOutput_2",
+      "value": 0
+    },
+    {
+      "id": "kSmartMotionAllowedClosedLoopError_2",
+      "value": 50
+    },
+    {
+      "id": "kSmartMotionAccelStrategy_2",
+      "value": 0
+    },
+    {
+      "id": "kSmartMotionMaxVelocity_3",
+      "value": 0
+    },
+    {
+      "id": "kSmartMotionMaxAccel_3",
+      "value": 0
+    },
+    {
+      "id": "kSmartMotionMinVelOutput_3",
+      "value": 0
+    },
+    {
+      "id": "kSmartMotionAllowedClosedLoopError_3",
+      "value": 0
+    },
+    {
+      "id": "kSmartMotionAccelStrategy_3",
+      "value": 0
+    },
+    {
+      "id": "kIMaxAccum_0",
+      "value": 0
+    },
+    {
+      "id": "kSlot3Placeholder1_0",
+      "value": 0
+    },
+    {
+      "id": "kSlot3Placeholder2_0",
+      "value": 0
+    },
+    {
+      "id": "kSlot3Placeholder3_0",
+      "value": 0
+    },
+    {
+      "id": "kIMaxAccum_1",
+      "value": 0
+    },
+    {
+      "id": "kSlot3Placeholder1_1",
+      "value": 0
+    },
+    {
+      "id": "kSlot3Placeholder2_1",
+      "value": 0
+    },
+    {
+      "id": "kSlot3Placeholder3_1",
+      "value": 0
+    },
+    {
+      "id": "kIMaxAccum_2",
+      "value": 0
+    },
+    {
+      "id": "kSlot3Placeholder1_2",
+      "value": 0
+    },
+    {
+      "id": "kSlot3Placeholder2_2",
+      "value": 0
+    },
+    {
+      "id": "kSlot3Placeholder3_2",
+      "value": 0
+    },
+    {
+      "id": "kIMaxAccum_3",
+      "value": 0
+    },
+    {
+      "id": "kSlot3Placeholder1_3",
+      "value": 0
+    },
+    {
+      "id": "kSlot3Placeholder2_3",
+      "value": 0
+    },
+    {
+      "id": "kSlot3Placeholder3_3",
+      "value": 0
+    },
+    {
+      "id": "kPositionConversionFactor",
+      "value": 1
+    },
+    {
+      "id": "kVelocityConversionFactor",
+      "value": 1
+    },
+    {
+      "id": "kClosedLoopRampRate",
+      "value": 0
+    },
+    {
+      "id": "kSoftLimitFwd",
+      "value": 0
+    },
+    {
+      "id": "kSoftLimitRev",
+      "value": 0
+    },
+    {
+      "id": "kSoftLimitRsvd0",
+      "value": 4294967295
+    },
+    {
+      "id": "kSoftLimitRsvd1",
+      "value": 4294967295
+    },
+    {
+      "id": "kAnalogPositionConversion",
+      "value": 1
+    },
+    {
+      "id": "kAnalogVelocityConversion",
+      "value": 1
+    },
+    {
+      "id": "kAnalogAverageDepth",
+      "value": 64
+    },
+    {
+      "id": "kAnalogSensorMode",
+      "value": 0
+    },
+    {
+      "id": "kAnalogInverted",
+      "value": 0
+    },
+    {
+      "id": "kAnalogSampleDelta",
+      "value": 200
+    },
+    {
+      "id": "kAnalogRsvd0",
+      "value": 4294967295
+    },
+    {
+      "id": "kAnalogRsvd1",
+      "value": 4294967295
+    },
+    {
+      "id": "kDataPortConfig",
+      "value": 0
+    },
+    {
+      "id": "kAltEncoderCountsPerRev",
+      "value": 4096
+    },
+    {
+      "id": "kAltEncoderAverageDepth",
+      "value": 64
+    },
+    {
+      "id": "kAltEncoderSampleDelta",
+      "value": 200
+    },
+    {
+      "id": "kAltEncoderInverted",
+      "value": 0
+    },
+    {
+      "id": "kAltEncoderPositionFactor",
+      "value": 1
+    },
+    {
+      "id": "kAltEncoderVelocityFactor",
+      "value": 1
+    },
+    {
+      "id": "kAltEncoderRsvd0",
+      "value": 4294967295
+    },
+    {
+      "id": "kAltEncoderRsvd1",
+      "value": 4294967295
+    },
+    {
+      "id": "kHallSensorSampleRate",
+      "value": 0.03125
+    },
+    {
+      "id": "kHallSensorAverageDepth",
+      "value": 3
+    },
+    {
+      "id": "kNumParameters",
+      "value": 155
+    },
+    {
+      "id": "kDutyCyclePositionFactor",
+      "value": 1
+    },
+    {
+      "id": "kDutyCycleVelocityFactor",
+      "value": 1
+    },
+    {
+      "id": "kDutyCycleInverted",
+      "value": 0
+    },
+    {
+      "id": "kDutyCycleSensorMode",
+      "value": 0
+    },
+    {
+      "id": "kDutyCycleAverageDepth",
+      "value": 7
+    },
+    {
+      "id": "kDutyCycleSampleDelta",
+      "value": 2
+    },
+    {
+      "id": "kDutyCycleZeroOffsetv1p6p2",
+      "value": 0
+    },
+    {
+      "id": "kDutyCycleRsvd0",
+      "value": 4294967295
+    },
+    {
+      "id": "kDutyCycleRsvd1",
+      "value": 4294967295
+    },
+    {
+      "id": "kDutyCycleRsvd2",
+      "value": 4294967295
+    },
+    {
+      "id": "kPositionPIDWrapEnable",
+      "value": 0
+    },
+    {
+      "id": "kPositionPIDMinInput",
+      "value": 0
+    },
+    {
+      "id": "kPositionPIDMaxInput",
+      "value": 0
+    },
+    {
+      "id": "kDutyCycleZeroCentered",
+      "value": 0
+    },
+    {
+      "id": "kDutyCyclePrescaler",
+      "value": 7
+    },
+    {
+      "id": "kDutyCycleZeroOffset",
+      "value": 0
+    }
+  ]
+}
