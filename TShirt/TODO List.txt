@@ -1,8 +1,0 @@
-
-Creat a dashboard
-Speed meter
-direction
-zero compas
-map of controller
-tabe control for rotate only and football speed.
-make laptop stand.

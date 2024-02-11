@@ -1,2 +1,0 @@
-# t-shirt-robot
-
