@@ -1,2 +1,4 @@
 *.lvlps
 *.aliases
+/HardWare/CTRE Install
+/HardWare/ni Install
