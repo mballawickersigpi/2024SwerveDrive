@@ -39,8 +39,8 @@
 	<Item Name="Cluster_Voltage Values.ctl" Type="VI" URL="../Cluster_Voltage Values.ctl"/>
 	<Item Name="ACT_Loop.vi" Type="VI" URL="../ACT_Loop.vi"/>
 	<Item Name="Global_CMD_ACT_Data In.vi" Type="VI" URL="../Global_CMD_ACT_Data In.vi"/>
-	<Item Name="Global_ACT_Data Out.vi" Type="VI" URL="../Global_ACT_Data Out.vi"/>
 	<Item Name="Cluster_CMD_ACT_Data.ctl" Type="VI" URL="../Cluster_CMD_ACT_Data.ctl"/>
+	<Item Name="Global_ACT_Data Out.vi" Type="VI" URL="../Global_ACT_Data Out.vi"/>
 	<Item Name="ENUM_ACT_Action.ctl" Type="VI" URL="../ENUM_ACT_Action.ctl"/>
 	<Item Name="ENUM_ACT_State.ctl" Type="VI" URL="../ENUM_ACT_State.ctl"/>
 	<Item Name="Velocity Sensor Data.vi" Type="VI" URL="../Velocity Sensor Data.vi"/>
