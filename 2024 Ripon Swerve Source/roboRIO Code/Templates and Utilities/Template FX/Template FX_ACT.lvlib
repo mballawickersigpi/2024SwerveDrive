@@ -47,4 +47,5 @@
 	<Item Name="Config HW Set.vi" Type="VI" URL="../Config HW Set.vi"/>
 	<Item Name="Manual Override.vi" Type="VI" URL="../Manual Override.vi"/>
 	<Item Name="Sensor HW Read.vi" Type="VI" URL="../Sensor HW Read.vi"/>
+	<Item Name="ENUM_Override_Select.ctl" Type="VI" URL="../ENUM_Override_Select.ctl"/>
 </Library>
