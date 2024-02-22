@@ -35,6 +35,7 @@
 		<Item Name="Cluster_CMD_ACT_Data.ctl" Type="VI" URL="../Cluster_CMD_ACT_Data.ctl"/>
 		<Item Name="ENUM_ACT_Action.ctl" Type="VI" URL="../ENUM_ACT_Action.ctl"/>
 		<Item Name="ENUM_ACT_State.ctl" Type="VI" URL="../ENUM_ACT_State.ctl"/>
+		<Item Name="Cluster_System Output Data.ctl" Type="VI" URL="../Cluster_System Output Data.ctl"/>
 	</Item>
 	<Item Name="Globals" Type="Folder">
 		<Item Name="Global_CMD_ACT_Data In.vi" Type="VI" URL="../Global_CMD_ACT_Data In.vi"/>
@@ -86,5 +87,7 @@
 	<Item Name="Build Rotation Set.vi" Type="VI" URL="../Build Rotation Set.vi"/>
 	<Item Name="Build Traverse Set.vi" Type="VI" URL="../Build Traverse Set.vi"/>
 	<Item Name="Build Actual View.vi" Type="VI" URL="../Build Actual View.vi"/>
+	<Item Name="Rotate To Angle PID.vi" Type="VI" URL="../Rotate To Angle PID.vi"/>
 	<Item Name="Seperate at Decimal Point.vi" Type="VI" URL="../Seperate at Decimal Point.vi"/>
+	<Item Name="Outputs SW Set.vi" Type="VI" URL="../Outputs SW Set.vi"/>
 </Library>
