@@ -38,4 +38,5 @@
 	<Item Name="Global_SEN_Data Out.vi" Type="VI" URL="../Global_SEN_Data Out.vi"/>
 	<Item Name="ENUM_SEN_Action.ctl" Type="VI" URL="../ENUM_SEN_Action.ctl"/>
 	<Item Name="ENUM_SEN_State.ctl" Type="VI" URL="../ENUM_SEN_State.ctl"/>
+	<Item Name="Convert to POV Direction.vi" Type="VI" URL="../Convert to POV Direction.vi"/>
 </Library>
